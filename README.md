@@ -1,1 +1,1 @@
-[HXN2.github.io](https://HXN2.github.com)
+[HXN2.github.io](https://HXN2.github.io)
