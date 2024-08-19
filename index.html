@@ -187,7 +187,27 @@
 <p dir="ltr" align="center"><font face="Consolas" size="5">
 <font color="#FFFFFF"><span style="background-color: #990002">&gt;</span></font><font color="#5E2E21"> </font></font><b><font face="Consolas" size="5">Gore My Life</font></b><span style="font-weight: 400"><b><font face="Consolas" size="5"> 
 .</font></b></span></p>
-<embed src="https://www.youtube.com/watch?v=m8bD8uGnzLg&t=1m10s" type="application/x-shockwave-flash" wmode="transparent" height="0" width="0">
+function PlayMusic() {
+
+  var play=document.getElementById("music");
+  play.play();
+}
+
+$(document).ready(function(){
+  setTimeout(PlayMusic,3000);
+})
+
+</script>
+</head>
+<body>
+
+<audio controls id="music" >
+
+  <source src="https://c.top4top.io/m_3046kxbm01.mp3" type="audio/mpeg">
+</audio>
+
+</body>
+</html>
 
 
 </span></span></span></span></m-eta></m-eta></m-eta></m-eta>
